@@ -1,0 +1,27 @@
+body{
+    background-color: cyan;
+    background-image: url(https://smktelkom-pwt.sch.id/wp-content/uploads/2018/10/logo-telkom-university-1024x439.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    text-indent: 40px;
+}
+h2{
+    text-align: justify;
+    color: violet;
+    text-transform: initial;
+}
+h3{
+    text-align: justify;
+    color: red;
+    text-transform: initial;
+}
+p{
+    text-align: justify;
+    color: orange;
+    letter-spacing: normal;
+}
