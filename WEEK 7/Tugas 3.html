@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Means and Method</title>
+        <link rel="stylesheet" href="C:\Users\bryoh\OneDrive\Pictures\Saved Pictures\kanji.jpg" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        <script src="C:\Users\bryoh\OneDrive\Pictures\Saved Pictures\kanji.jpg" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        table, th, th {
+          border:1px solid blueviolet;
+        }
+    </style>
+    <table style="width: 100%;">
+        <tr>
+            <th>Name of the method</th>
+            <th>What kind of method is it</th>
+            <th>Why the method exist</th>
+            <th>How should we use the method</th>
+            <th>On what circumstances should we use it</th>
+            <th>Who should we use it on</th>
+        </tr>
+    <phpconnect>
+    <?php
+
+    $conn = mysqli_connect("localhost", "root", "", "tugas3_wad");
+    
+    if ($conn->connect_error) {
+        die("Connection Failed : ".$conn->connect_error);
+    }
+    
+    $result = mysqli_query($conn,"SELECT * FROM means_wisdom");
+    
+    ?>
+    </phpconnect>
+    </table>
+</html>
